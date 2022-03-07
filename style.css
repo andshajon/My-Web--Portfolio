@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&family=Hubballi&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@300;500&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: black;
+    font-family: 'Hubballi', cursive;
+    
+
+}
+
+header a {
+    text-decoration: none;
+}
+header {
+    
+    background-color: #333533;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 0px auto;
+    
+   
+
+}
+
+#brand{
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+   
+}
+
+#brand a{
+    color: #F5CB5C;
+}
+#brand a:hover{
+    color: #E8EDDF;
+}
+#brand a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+   
+}
+ul a{
+    color: #E8EDDF;
+    font-weight: 900;
+    font-size: 18px;
+}
+ul a:hover{
+    color: #F5CB5C;
+}
+
+ul li{
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+
+ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#hire-me {
+    background-color: #F5CB5C;
+    padding: 5px 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #E8EDDF;
+    color: #242423; 
+    font-size: 20px;
+}
+
+
+
+#hire-me:hover{
+
+   background-color:#333533 ;
+   padding: 5px 25px;
+   border-radius: 5px;
+   box-shadow: 2px 2px #E8EDDF;
+   color:  #F5CB5C;
+}
+
+.fa-solid{
+    
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+
+
+#hamburger-icon{
+    
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div{
+    width: 25px;
+    height: 2px;
+    background-color: #E8EDDF ;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1{
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+.open .bar2{opacity: 0;
+
+}
+
+.open .bar3{
+    -webkit-transform: rotate(45deg) translate(-6px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.open .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+
+    
+}
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top:50;
+    right:0;
+    height: 100%;
+    width:100%;
+    background-color:#242423;
+    
+   
+}
+
+.mobile-menu a {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    header{
+        height: 100%;
+       
+        
+        
+    }
+    header nav {
+      display: none;
+    }
+    #hamburger-icon{
+        display: block;
+       
+        
+        
+        
+
+    }
+
+    #brand{
+        font-size: 24px;
+    }
+
+    #hire-me{
+        margin-top: 40px;
+  }
+    #hire-me:hover{
+        background-color: #242423;
+    }
+
+
+   
+}
