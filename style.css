@@ -30,6 +30,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 0px auto;
+    background-image: url(images/earth.jpg);
     
    
 
@@ -361,6 +362,9 @@ ul li:hover{
 
   .main{
     overflow-x: hidden;
+   
+    
+    
   }
   .main .container  h1{
       font-size: 40px;
