@@ -5,6 +5,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+   
+    
+    
+    
 }
 
 body {
@@ -20,11 +25,14 @@ header a {
 }
 header {
     
-    background-color: #333533;
+    background-color:#242423;
     height: 80px;
     display: flex;
     justify-content: space-around;
     width: 0px auto;
+    position: sticky;
+    top:0;
+    z-index: 100;
     
    
 
@@ -164,6 +172,156 @@ ul li:hover{
     padding-top: 40px;
 }
 
+
+/*  Header style begins here*/
+
+.main{
+    background-color: #242423;
+    background-image: url(images/planets-main.jpg);
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom top;
+}
+
+.container{
+    width: 1160px;
+    margin: 0px auto;
+    padding: 0px 20px;
+   
+   
+  
+}
+
+.main .container{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 50px;
+   
+    
+}
+
+.main .container .left-side{
+    padding-top: 100px;
+   
+}
+
+.main .container  h1{
+    font-size: 55px;
+    padding-bottom: 15px;
+    color: #E8EDDF;
+    
+    
+    
+}
+
+
+
+
+
+
+
+.left-side{
+    width: 50%;
+
+}
+.right-side{
+    width: 50%;
+    overflow: hidden;
+    
+    
+
+    
+
+   
+}
+
+.right-side img{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    
+    
+   
+    
+    
+}
+.right-side img:hover{
+
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+
+
+.main-button{
+    background-color: #F5CB5C;
+    padding: 5px 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #E8EDDF;
+    color: #242423; 
+    font-weight: 900;
+    font-size: 18px;
+   
+}
+.main-button:hover{
+   background-color:#333533 ;
+   padding: 5px 25px;
+   border-radius: 5px;
+   box-shadow: 2px 2px #E8EDDF;
+   color:  #F5CB5C;
+   transform: scale(1.1);
+   transition: 0.3s;
+
+}
+.different-button-color{
+    background-color: #CFDBD5 ;
+    box-shadow: 2px 2px #F5CB5C;
+
+}
+
+
+.left-side a{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-decoration: none ;
+    align-items: center;
+}
+
+.button-align{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.button-align a{
+    margin-right: 30px;
+}
+    
+   
+
+.background-picture{
+   
+    margin-top: 70px;
+    
+    
+  
+   
+}
+
+
+ 
+
+
+
+/*  Header style finishes here*/
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     
     header{
@@ -194,6 +352,49 @@ ul li:hover{
     #hire-me:hover{
         background-color: #242423;
     }
+
+
+    /* Home section style for mobile device starts here  */
+
+
+  .main .container{
+      flex-direction: column;
+      align-items: flex-start;
+      overflow-x: hidden;
+      
+    
+      
+  }
+
+  .main{
+    overflow: hidden;
+    
+    background-color:#242423;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .main .container  h1{
+      font-size: 50px;
+      
+      
+      
+  }
+  .left-side{
+      padding-right: 30px;
+      object-fit: contain;
+  }
+  .right-side > img{
+      padding-right: 150px;
+      margin-top:100px ;
+      
+     
+  }
+
+
+   /* Home section style for mobile device finishes here  */
 
 
    
