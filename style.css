@@ -25,14 +25,11 @@ header a {
 }
 header {
     
-    background-color:#242423;
+    background-color: #333533;
     height: 80px;
     display: flex;
     justify-content: space-around;
     width: 0px auto;
-    position: sticky;
-    top:0;
-    z-index: 100;
     
    
 
@@ -177,12 +174,13 @@ ul li:hover{
 
 .main{
     background-color: #242423;
-    background-image: url(images/planets-main.jpg);
-    height: 100vh;
-    
+    background-image: url(images/universe.jpg);
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom top;
+    
+    
+ 
 }
 
 .container{
@@ -207,11 +205,10 @@ ul li:hover{
    
 }
 
-.main .container  h1{
+.main .container h1{
     font-size: 55px;
     padding-bottom: 15px;
     color: #E8EDDF;
-    
     
     
 }
@@ -224,7 +221,6 @@ ul li:hover{
 
 .left-side{
     width: 50%;
-
 }
 .right-side{
     width: 50%;
@@ -266,7 +262,7 @@ ul li:hover{
    
 }
 .main-button:hover{
-   background-color:#333533 ;
+   background-color:#242423 ;
    padding: 5px 25px;
    border-radius: 5px;
    box-shadow: 2px 2px #E8EDDF;
@@ -354,9 +350,6 @@ ul li:hover{
     }
 
 
-    /* Home section style for mobile device starts here  */
-
-
   .main .container{
       flex-direction: column;
       align-items: flex-start;
@@ -367,17 +360,10 @@ ul li:hover{
   }
 
   .main{
-    overflow: hidden;
-    
-    background-color:#242423;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    overflow-x: hidden;
   }
   .main .container  h1{
-      font-size: 50px;
+      font-size: 40px;
       
       
       
@@ -392,9 +378,6 @@ ul li:hover{
       
      
   }
-
-
-   /* Home section style for mobile device finishes here  */
 
 
    
