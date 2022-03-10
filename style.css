@@ -12,10 +12,14 @@
     
 }
 
+
+
 body {
     background-color: #fff;
     color: black;
     font-family: 'Hubballi', cursive;
+    overflow-x:hidden !important
+    
     
 
 }
@@ -182,6 +186,8 @@ ul li:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
     
     
  
@@ -212,7 +218,10 @@ ul li:hover{
 .main .container h1{
     font-size: 55px;
     padding-bottom: 15px;
-    color: #E8EDDF;
+    
+    background: -webkit-linear-gradient(#E8EDDF,#F5CB5C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
     
 }
@@ -318,10 +327,9 @@ ul li:hover{
 /*  Header style finishes here*/
 .about{
     background-color: #E8EDDF;
+    height: 100vh;
 }
-.about .about-left{
-    width: 50%;
-}
+
 
 .about > .container{
     padding-top: 100px;
@@ -338,6 +346,10 @@ ul li:hover{
 
 }
 
+.about .about-left{
+    width: 50%;
+}
+
 .about-right{
     width: 50%;
 
@@ -345,13 +357,13 @@ ul li:hover{
 
 .about-right h2{
     margin-top: 80px;
-    margin-left: 40px;
+    
     font-size: 35px;
 
 }
 .about-social{
     margin-top: 30px;
-    margin-left: 42px;
+    
 }
 .fa-brands{
     font-size: 30px;
@@ -474,23 +486,33 @@ ul li:hover{
     }
 
 
-  .main .container{
-      flex-direction: column;
-      align-items: flex-start;
-      overflow-x: hidden;
-      
-    
-      
-  }
+ 
 
   .main{
     overflow-x: hidden;
+    background-position: top top;
    
     
     
   }
+
+
+
+  .main .container{
+    flex-direction: column;
+    align-items: flex-start;
+   
+    
+  
+    
+}
+
+
+
   .main .container  h1{
-      font-size: 40px;
+      font-size: 50px;
+      width: 80%;
+      margin-left: 15px;
       
       
       
@@ -504,6 +526,45 @@ ul li:hover{
       margin-top:100px ;
       
      
+  }
+  .main-button{
+      margin-left: 15px;
+  }
+  .about{
+      height: 100%;
+      overflow-x: hidden !important;
+  
+    
+      
+      
+  }
+
+
+  .about > .container{
+      flex-direction: column;
+      margin-top: 0px 20px;
+      
+      
+  }
+  .about .about-right{
+      
+     
+  
+      
+    
+  }
+  .about > .container h2{
+      
+      font-size: 25px;
+      line-height: 1.2;
+      width:80%;
+      margin-left: 15px;
+   
+      
+  }
+  .about-social{
+      margin-left:  18px ;
+      margin-bottom: 100px;
   }
 
 
