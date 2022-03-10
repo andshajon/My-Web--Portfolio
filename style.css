@@ -316,6 +316,126 @@ ul li:hover{
 
 
 /*  Header style finishes here*/
+.about{
+    background-color: #E8EDDF;
+}
+.about .about-left{
+    width: 50%;
+}
+
+.about > .container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.about-left img{
+    width: 80%;
+    
+
+}
+
+.about-right{
+    width: 50%;
+
+}
+
+.about-right h2{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 35px;
+
+}
+.about-social{
+    margin-top: 30px;
+    margin-left: 42px;
+}
+.fa-brands{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+
+.fa-linkedin{
+    
+    background: -webkit-linear-gradient(#F5CB5C, #242423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+
+.fa-linkedin:hover{
+
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+
+
+.fa-github{
+    
+    background: -webkit-linear-gradient(#242423,#F5CB5C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-github:hover{
+
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+
+.fa-facebook-square{
+    
+    background: -webkit-linear-gradient(  #F5CB5C, #242423);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.fa-facebook-square:hover{
+
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+
+
+
+.fa-twitter{
+    
+    background: -webkit-linear-gradient(#242423,#F5CB5C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-twitter:hover{
+
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: #F5CB5C;
+}
+
+
+.fa-github{
+    
+    background: -webkit-linear-gradient(#242423,#F5CB5C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-github:hover{
+
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+
+
 
 
 
