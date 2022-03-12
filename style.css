@@ -38,16 +38,16 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow:         inset 0 0 10px #CFDBD5;
     
    
 
 }
 
 #brand{
-    font-weight: bold;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    height: 100%;
+    
    
 }
 
@@ -110,11 +110,11 @@ ul li:hover{
 
 #hire-me:hover{
 
-   background-color:#333533 ;
+   background-color: #ffd7ba;
    padding: 5px 25px;
    border-radius: 5px;
    box-shadow: 2px 2px #E8EDDF;
-   color:  #F5CB5C;
+   color:  #242423;
 }
 
 .fa-solid{
@@ -158,6 +158,7 @@ ul li:hover{
     align-items: center;
     justify-content: flex-start;
     padding-top: 40px;
+    height: 100%;
 
     
 }
@@ -188,6 +189,8 @@ ul li:hover{
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
+   
+
     
     
  
@@ -268,26 +271,36 @@ ul li:hover{
     background-color: #F5CB5C;
     padding: 5px 25px;
     border-radius: 5px;
-    box-shadow: 2px 2px #E8EDDF;
+    box-shadow: 2px 2px #fff;
     color: #242423; 
     font-weight: 900;
     font-size: 18px;
    
 }
 .main-button:hover{
-   background-color:#242423 ;
+   background-color: #ffd7ba;
    padding: 5px 25px;
    border-radius: 5px;
    box-shadow: 2px 2px #E8EDDF;
-   color:  #F5CB5C;
+   color:  #242423;
    transform: scale(1.1);
    transition: 0.3s;
 
 }
 .different-button-color{
-    background-color: #CFDBD5 ;
-    box-shadow: 2px 2px #F5CB5C;
+    background-color: #242423 ;
+    box-shadow: 2px 2px #E8EDDF;
+    color: #F5CB5C;
 
+}
+.different-button-color:hover{
+    background-color: #333533;
+    padding: 5px 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #fff;
+    color: #F5CB5C; 
+    font-weight: 900;
+    font-size: 18px;
 }
 
 
@@ -404,7 +417,7 @@ ul li:hover{
 
 .fa-facebook-square{
     
-    background: -webkit-linear-gradient(  #F5CB5C, #242423);
+    background: -webkit-linear-gradient(   #242423,#F5CB5C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -422,7 +435,7 @@ ul li:hover{
 
 .fa-twitter{
     
-    background: -webkit-linear-gradient(#242423,#F5CB5C);
+    background: -webkit-linear-gradient(#F5CB5C,#eb5e28);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -436,7 +449,7 @@ ul li:hover{
 
 .fa-github{
     
-    background: -webkit-linear-gradient(#242423,#F5CB5C);
+    background: -webkit-linear-gradient(#eb5e28,#F5CB5C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -446,6 +459,9 @@ ul li:hover{
     transition: 0.3s;
     
 }
+
+
+/* Skill section design here*/
 
 
 
@@ -467,6 +483,8 @@ ul li:hover{
     }
     #hamburger-icon{
         display: block;
+        margin-top: 25px;
+        margin-left: 200px;
        
         
         
@@ -475,14 +493,17 @@ ul li:hover{
     }
 
     #brand{
-        font-size: 24px;
+        height: 80px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 80px;
     }
 
     #hire-me{
         margin-top: 40px;
   }
     #hire-me:hover{
-        background-color: #242423;
+        background-color: #ffd7ba;
     }
 
 
@@ -490,7 +511,9 @@ ul li:hover{
 
   .main{
     overflow-x: hidden;
-    background-position: top top;
+    
+
+    background-image: url(images/universe-mobile.jpg);
    
     
     
